@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sí</title>
+    <script src="https://kit.fontawesome.com/ca76206a00.js" crossorigin="anonymous"></script>
+    <link><link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+        #link{
+            font-family: Poppins;
+            font-size: x-small;
+            color: #233b5b;
+        }
+        nav{
+            color: #233b5b;
+            display: flex;
+            justify-content: space-between;
+            padding: 0px 100px;
+            font-family: Poppins;
+        }
+        #logout{
+            flex-grow: 1;
+            text-align: right;
+        }
+        nav div{
+            padding: 10px 20px;
+        }
+        #recipe{
+          background-color: rgba(252, 231, 1, 0.956); 
+          color: #233b5b; 
+          background-image: url(no.jpeg);
+        }
+        #text-recipe{
+            text-align: center;
+            font-family: Poppins;
+        }
+        #contador{
+            display: flex;
+            justify-content: center;
+        }
+        .numero{
+            background-color: white;
+            border: 2px solid #fab005;
+            border-radius: 10px;
+            height: 50px;
+            width: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+        }
+        h3{
+            font-weight: bold;
+        }
+        .text-contador{
+            font-weight: bold;
+            font-size: 15px;
+        }
+        #contador>div{
+            margin: 0px 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="link">Esta página es un proyecto escolar. Obtenido de: https://fontawesome.com</div>
+    <nav>
+        <div><i class="fa-brands fa-font-awesome fa-2xl" style="color: #2e2e6f"></i></div>
+        <div>Start</div>
+        <div><i class="fa-solid fa-magnifying-glass"></i></div>
+        <div>Icons</div>
+        <div>Docs</div>
+        <div>Plans</div>
+        <div>Support</div>
+        <div>Podcast</div>
+        <div id="logout"></div><i class="fa-solid fa-right-from-bracket fa-2xl"></i></div>
+    </nav>
+    <div id="recipe">
+        <div id="text-recipe">
+            <i class="fa-brands fa-font-awesome fa-2xl"></i>
+            <h3>We're changing the recipe...</h3>
+            <p>Join us for a special livestream event on
+                <a href="">April 2, 2025 1pm ET (10am PT) </a>  
+                <br>and see what we've got cooking!
+            <p>
+            <div id="contador">
+                <div>
+                    <div class="numero">5</div>
+                    <p class="text-contador">DAYS</p>
+                </div>
+                <div>
+                    <div class="numero">1</div>
+                    <p class="text-contador">HOURS</p>
+                </div>
+                <div>
+                    <div  class="numero">52</div>
+                    <p class="text-contador">MINUTES</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="getstart">
+        <div id="text-start">
+            <h3>Get Started with Font Awesome</h3>
+            <p>The easiest way to get icons on your website is with a Kit.
+                It's your very own custom version of Font Awesome, 
+                all bundled up with only the icons, tools, and settings you need.</p>
+        </div>
+    </div>
+</body>
+</html>
